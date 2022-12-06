@@ -111,7 +111,7 @@ npm init wasm-app www
 
 <sup>将www/index.js作相应修改<sup>
 ```js
-import * as wasm from "my-wasm";
+import * as wasm from "wasm-tutorial";
 
 alert(wasm.greet())
 ```
@@ -153,7 +153,7 @@ pub fn get_answer(s: &str) {
 
 <sup>修改www/index.js<sup>
 ```js
-import * as wasm from "my-wasm";
+import * as wasm from "wasm-tutorial";
 
 wasm.getAnswer(
   wasm.greet()
